@@ -5,14 +5,12 @@ We can use below method to block advertisement in user devices in whole network 
 2. we have to make ip address of ubuntu server as static ip Address by updating 00-installer-config.yaml file.
 
 .. code-block:: console
-
    sudo nano /etc/netplan/00-installer-config.yaml
    sudo netplan apply
 
 4. make ubuntu server as DNS server after install pi-hole in ubuntu server.
 
 .. code-block:: console
-
    wget -0 basic-install.sh https://install.pi-hole.net
    
 5. Steps to follow below for setup of another virtual machine.
